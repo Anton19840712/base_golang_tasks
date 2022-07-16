@@ -25,8 +25,6 @@ func main() {
 	guessNumber := rand.Intn(100) + 1
 
 	fmt.Println()
-	fmt.Println("The number, that was generated is: ", guessNumber)
-
 	fmt.Println("Program generated a number from 1 to 100.\nTry to guess what the number is.")
 	fmt.Println("You have only 3 attempts to guess, what the number is.\nSo, let's go: insert a number from 1 to 100, please...")
 
